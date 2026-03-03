@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(151, 22, 22);
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: rgb(169, 36, 36);
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+nav ul li {
+    margin: 0 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #460202;
+    font-size: 22px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #F28C28;
+}
+
+header {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.logo {
+    width: 600px;
+    max-width: 90%;
+}
+
+header h1 {
+    margin-top: 20px;
+    font-size: 42px;
+    color: #460202;
+}
+
+
+.historico {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 20px;
+}
+
+.historico-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+.historico-texto {
+    flex: 1;
+}
+
+.historico-texto h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #460202;
+}
+
+.historico-texto p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    background-color: rgb(148, 78, 78);
+    padding: 20px;
+    border-radius: 12px;
+    color: #310303;
+    transition: 0.3s ease;
+    cursor: crosshair;
+}
+
+.historico-texto p:hover {
+    transform: scale(1.03) translateY(-5px);
+    background-color: #2a2a2a;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    color: #F28C28;
+}
+
+
+.historico-imagem {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.imgritadiva {
+    width: 400px;
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgb(255, 247, 130);
+    transition: 0.4s;
+}
+
+.imgritadiva:hover {
+    transform: scale(1.05);
+    cursor: crosshair;
+}
+
+.musicasealbuns {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 20px;
+}
+
+
+table {
+    border: 1px solid darkred;
+}
+
+.tabela {
+    width: 100%;
+    background-color: rgb(148, 78, 78);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+.tabela tr {
+    background-color: #b94f4f71;
+    color: #F28C28;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tabela td {
+    padding: 18px;
+    text-align: center;
+    font-size: 18px;
+    color: #310303;
+    transition: 0.3s ease;
+}
+
+.tabela a {
+    text-decoration: none;
+    color: #460202;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.musicasealbuns h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #460202;
+}
+
+footer {
+    background-color: rgb(169, 36, 36);
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+footer ul li {
+    margin: 0 40px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #460202;
+    font-size: 22px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+footer ul li a:hover {
+    color: #F28C28;
+}
+
+footer p {
+    color: #460202;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 8px;
+}
